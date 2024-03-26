@@ -82,10 +82,12 @@ main {
 .div-1 {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
-
+ .ppp{
+    display: flex;
+    justify-content: center;
+ }
 #P {
     display: flex;
     background: black;
@@ -124,20 +126,19 @@ main {
     width: 100%;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    margin-left: -40%;
-}
-
 .text p {
     margin: 5px;
+}
+
+.gh{
+    display: flex;
+    justify-content: center;
 }
 
 .menu {
     display: flex;
     justify-content: center;
+    width: 40%;
 
 }
 
@@ -157,19 +158,26 @@ main {
 .div-menu {
     display: flex;
     justify-content: center;
+    width: 100%;
     box-shadow: 0 0 10px rgba(11, 11, 11, 0.5);
-    width: 535px;
-    height: 550px;
-}
 
+}
+.jr{
+    display: flex;
+    justify-content: center;
+}
 .div-ul {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 10px 10px -10px rgba(11, 11, 11, 0.7);
     list-style-type: none;
+    width: 40%;
 }
 
 .div-ul li {
+    display: flex;
+    justify-content: center;
     margin-left: 10px;
     margin-right: -10px;
     margin: 10px;
@@ -177,13 +185,15 @@ main {
 }
 
 .div-ul li:nth-child(1) {
+
     background-color: rgb(73, 73, 73);
     color: white;
-    padding: 0 110px 5px 110px;
+    width: 250px;
+
 }
 
 .div-ul li:nth-child(2) {
-    padding: 0 110px 0 110px;
+width:250px;
 }
 
 .pre {
@@ -218,34 +228,26 @@ main {
     margin-top: 2%;
     width: 105%;
 }
-
-.section5 {
+.where{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-}
+} 
 
-.div-section5 {
-    position: relative;
-    display: flex;
-    justify-content: center;
+.div-where{
+    margin-top:25px ;
     width: 40%;
 }
 
-.where {
-    position: absolute;
+.text-where{
     display: flex;
-    font-family: "Lexend Exa";
     justify-content: center;
-    background-color: #000;
-    padding: 5px;
-    color: white;
+    padding-bottom:25px;
 }
-
-.normal-text {
-    position: relative;
-    margin-top: 15%;
-    right: 24%;
+.text-where p {
+    padding: 5px;
+    background-color: #000;
+    color: white;
+    font-family:"Lexend Exa";
 }
 
 .div-img5 {
